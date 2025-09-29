@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Cuadrado</title>
+    <link rel="stylesheet" href="style/cuadrado.css">
+</head>
+<body>
+    <form name="form1">
+        <label for="numero">Ingrese un número:</label>
+        <input type="text" name="numero" id="numero" placeholder="Número">
+
+        <label for="resultado">Resultado:</label>
+        <input type="text" name="resultado" id="resultado" placeholder="Resultado">
+
+        <label for="fijo">Dato fijo:</label>
+        <input type="text" name="fijo" id="fijo" value="---Aquí puedes insertar un dato fijo---" readonly>
+
+        <div class="botones">
+            <button type="button" onclick="cuadrado()">Calcular cuadrado</button>
+            <button type="button" onclick="borrar()">Borrar</button>
+        </div>
+    </form> 
+    
+    <script src="js/cuadrado.js"></script>
+</body>
+</html>

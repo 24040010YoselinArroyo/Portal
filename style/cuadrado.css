@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f0dbfe, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+form:hover {
+    transform: scale(1.02);
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #eabdff;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #6e0d86;
+    box-shadow: 0 0 5px rgba(221, 25, 188, 0.5);
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    background: #562d77;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #70037a;
+    transform: scale(1.05);
+}
+
+button:active {
+    background: #7e0163;
+}
+
+#fijo {
+    background: #f3f4f6;
+    font-weight: bold;
+    color: #111827;
+}
